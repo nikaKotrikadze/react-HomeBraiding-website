@@ -4,17 +4,17 @@ export default function Footer() {
     <footer>
       <div class="footer-basic">
         <div class="social">
-          <a href="https://www.facebook.com/">
+          <a target="_blank" href="https://www.facebook.com/">
             <li>
               <i class="fab fa-facebook-f"></i>
             </li>
           </a>
-          <a href="https://twitter.com/" target="_blank">
+          <a target="_blank" href="https://twitter.com/" target="_blank">
             <li>
               <i class="fab fa-twitter"></i>
             </li>
           </a>
-          <a href="https://www.instagram.com/" target="_blank">
+          <a target="_blank" href="https://www.instagram.com/" target="_blank">
             <li>
               <i class="fab fa-instagram"></i>
             </li>
@@ -23,12 +23,6 @@ export default function Footer() {
         <ul class="list-inline">
           <li class="list-inline-item">
             <a href="#About">About</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#Gallery">Gallery/Works</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#Booking">Booking</a>
           </li>
           <li class="list-inline-item">
             <a href="#">Terms</a>

@@ -1,4 +1,5 @@
 import React from 'react';
+
 export default function Main() {
   return (
     <main id="About">
@@ -19,17 +20,21 @@ export default function Main() {
           </div>
 
           <ul class="icons">
-            <a href="https://www.facebook.com/">
+            <a target="_blank" href="https://www.facebook.com/">
               <li>
                 <i class="fab fa-facebook-f"></i>
               </li>
             </a>
-            <a href="https://twitter.com/" target="_blank">
+            <a target="_blank" href="https://twitter.com/" target="_blank">
               <li>
                 <i class="fab fa-twitter"></i>
               </li>
             </a>
-            <a href="https://www.instagram.com/" target="_blank">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/"
+              target="_blank"
+            >
               <li>
                 <i class="fab fa-instagram"></i>
               </li>
